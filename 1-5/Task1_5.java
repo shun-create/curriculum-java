@@ -43,11 +43,11 @@ public class Task1_5 {
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
     for (int w = 1; w <= 9; w++) {
-    for (int j = 1; j <= 9; j++) {
-        System.out.print(w + "||" + (w * j) + "" + "|");
-    
+        System.out.print(w + "||");
+        for (int j = 1; j <= 9; j++) {
+            System.out.print((w*j)+"|");
+        }
         System.out.println();
-    }
-    }
-    }
-}
+       }
+  }
+ }
