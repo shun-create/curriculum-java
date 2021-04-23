@@ -1,0 +1,100 @@
+/* ウィンドウ幅が767pxの場合 */
+@media screen and (max-width: 767px) {
+
+.header{
+  width: 300px;
+}
+
+.main{
+  width: 300px;
+}
+
+.main-left{
+  width: 100px;
+}
+
+.content{
+  width: 200px;
+}
+
+.content-high{
+  width: 200px;
+}
+
+.content-high-left{
+  width: 125px;
+}
+
+.content-higt-left-high{
+  width: 125px;
+}
+
+.content-high-left-low{
+  width: 125px;
+}
+
+.content-high-right{
+  width: 75px;
+}
+
+.content-low{
+  width: 200px;
+}
+
+.footer{
+  width: 300px;
+}
+}
+
+/* ウィンドウ幅が479pxの場合 */
+@media screen and (max-width: 479px) {
+.wrapper{
+  flex-flow:row wrap;
+  width: 100%;
+}
+
+.header{
+  width: 150px;
+}
+
+.main{
+  width: 150px;
+}
+
+.main-left{
+  width: 150px;
+  height: 100px;
+}
+
+.content{
+  width: 150px;
+}
+
+.content-high{
+  width: 150px;
+}
+
+.content-high-left{
+  width: 150px;
+}
+
+.content-higt-left-high{
+  width: 150px;
+}
+
+.content-high-left-low{
+  width: 150px;
+}
+
+.content-high-right{
+  width: 150px;
+}
+
+.content-low{
+  width: 150px;
+}
+
+.footer{
+  width: 150px;
+}
+}
